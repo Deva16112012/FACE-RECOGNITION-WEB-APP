@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Image recognition</title>
@@ -18,20 +18,16 @@
   <div class="container">
     
     <center>
-      <h3 class="btn btn-default h">Image recognition</h3>
+      <h3 class="btn btn-default h">Face recognition</h3>
       <br><br>
 
-      <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
+      <p style="font-size: 22px;">Model is trained to identify the following people: </p>
       <b id="bo">
-        Cotton-
+        Child-
         <hr>
-        Paint Brush-
+        Father-
         <hr>
-        Pen-
-        <hr>
-        Highlighter-
-        <hr>
-        Oil pastel-
+        Mother-
         <hr>
       </b>
       <label>Webcam View - </label>
@@ -39,12 +35,12 @@
       <br><br>
       <div id="result"></div>
       <br><br>
-      <button class="btn btn-primary" onclick="bt()">Capture image</button>
+      <button class="btn btn-primary" onclick="ci()">Capture image</button>
       <br><br>
-      <button class="btn btn-info" onclick="it()">Identify image</button>
+      <button class="btn btn-info" onclick="ii()">Identify image</button>
       <br><br>
 
-      <p style="font-size: 22px;">Object :<span id="s"></span>  </p>
+      <p style="font-size: 22px;">Object :<span id="o"></span>  </p>
       <p style="font-size: 22px;">Accuracy :<span id="a"></span>  </p>
     </center>
 
